@@ -1,4 +1,4 @@
-# TheStreetFontIcons
+# TheStreet Keystone FontIcons
 Font icon repo for TheStreet
 
 To add the font-icon library to a project:
