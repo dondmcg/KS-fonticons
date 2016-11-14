@@ -10,7 +10,7 @@ To manually add the font-icon library to a project:
 To install use npm:
 <ol><li>go to the vendor folder cms-tags/grails-app/assets/vendor<li>
 <li>run <code>npm install ks-fonticons</code></li>
-<li>If prompted say "yes" to over write</li></ol>
+<li>The postinstall script will auto-overwrite the fonts and _font-icons.scss</li></ol>
 
 To edit the fonts: 
 <ol><li>upload the selection.json file to icomoon.io app</li>
