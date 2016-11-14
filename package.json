@@ -1,0 +1,23 @@
+{
+  "name": "ks-fonticons",
+  "version": "1.1.1",
+  "description": "Font icon library for TheStreet",
+  "main": "index.html",
+  "scripts": {
+    "copy-files": "cp assets/font-icons.scss ../../../stylesheets/styles/modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dondmcg/ks-fonticons.git"
+  },
+  "keywords": [
+    "font",
+    "icons"
+  ],
+  "author": "Don McGrath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dondmcg/ks-fonticons/issues"
+  },
+  "homepage": "https://github.com/dondmcg/ks-fonticons#readme"
+}
