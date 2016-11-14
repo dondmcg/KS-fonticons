@@ -1,10 +1,10 @@
 {
   "name": "ks-fonticons",
-  "version": "1.1.6",
+  "version": "1.1.9",
   "description": "Font icon library for TheStreet",
   "main": "index.html",
   "scripts": {
-    "postinstall": "cp assets/_font-icons.scss ../../../stylesheets/styles/modules/"
+    "postinstall": "cp assets/_font-icons.scss ../../../stylesheets/styles/modules/ && cp fonts/font-icons/* ../../../stylesheets/fonts/font-icons/"
   },
   "repository": {
     "type": "git",
