@@ -15,8 +15,8 @@
         "tags": [
           "mag"
         ],
-        "defaultCode": 59651,
-        "grid": 0
+		"defaultCode": 61441,
+        "grid": 14
       },
       "attrs": [],
       "properties": {
@@ -44,7 +44,8 @@
           "warning",
           "sign"
         ],
-        "grid": 16
+		"defaultCode": 61442,
+        "grid": 14
       },
       "attrs": [],
       "properties": {
