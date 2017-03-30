@@ -16,9 +16,14 @@ To install use npm:
 
 To edit the fonts: 
 <ol>
-<li>upload the selection.json file to icomoon.io app</li>
-<li>add, edit or delete and then click "Generate Font"</li>
-<li>edit the resulting style.css to match the _font-icons.scss file</li>
-<li>follow the instructions above to add the font-icon library to a project</li>
-<li>update the gh-pages branch so that the demo page reflects the changes</li>
+<li>Download the selection.json file from this github repo</li>
+<li>Upload the selection.json file to icomoon.io app</li>
+<li>Add, edit or delete and then click "Generate Font"</li>
+<li>From the resulting files locate the style.css file and the fonts dir</li>
+<li>Edit the resulting style.css to match the _font-icons.scss file and rename it as _font-icons.scss</li>
+<li>Upload the new _font-icons.sccs to the appropriate place in this repo</li>
+<li>Upload the new font files in the new fonts folder to the dir fonts/fonticons/ in this repo</li>
+<li>Be sure to increment the version number of the repo in the package json</li>
+<li>Follow the instructions above to add the font-icon library to a project</li>
+<li>Update the gh-pages branch so that the demo page reflects the changes</li>
 </ol>
