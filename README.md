@@ -35,18 +35,31 @@ After downloading the newly created font there are four files or sets of files t
 <li>style.css (will become _font-icons.scss and font-icons.css)</li>
 <li>demo.html (will become index.html for the gh-pages)</li>
 <li>selection.json (will replace initial selection.json)</li>
-<li>package.json (from this repo)</li>
+<li>package.json (from this repo to increment the version number)</li>
 <li>four font files inside the fonts directory</li>
 </ol>
-
+With this in mind proceed to...
 <ol>
 <li>From the resulting files locate the style.css file and the fonts dir</li>
 <li>Edit the resulting style.css to match the _font-icons.scss file and rename it as _font-icons.scss</li>
-<li>Upload the new _font-icons.sccs to the appropriate place in this repo</li>
+<p>
+To edit the style.css simply make sure the font face declaration at the top of the page matches:<br><br>
+@font-face {
+  font-family: 'font-icons';
+  src:  url('../fonts/font-icons/font-icons.eot?trcws1');
+  src:  url('../fonts/font-icons/font-icons.eot?trcws1#iefix') format('embedded-opentype'),
+    url('../fonts/font-icons/font-icons.ttf?trcws1') format('truetype'),
+    url('../fonts/font-icons/font-icons.woff?trcws1') format('woff'),
+    url('../fonts/font-icons/font-icons.svg?trcws1#font-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+</p>
+<li>Upload the new _font-icons.sccs to the assets dir of this repo</li>
 <li>Upload the new font files in the new fonts folder to the dir fonts/fonticons/ in this repo</li>
 <li>Be sure to increment the version number of the repo in the package json</li>
-<li>Follow the instructions above to add the font-icon library to a project</li>
-<li>Update the gh-pages branch so that the demo page reflects the changes</li>
+<li>In the terminal navigate to the ks-fonticons local repo</li>
+<li>From this dir run $ npm publish to update the registry to the new package version number</li>
 </ol>
 
 <h3>Updating gh-pages branch files</h3>
