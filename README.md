@@ -98,7 +98,7 @@ To edit the style.css simply make sure the font face declaration at the top of t
     &#x3C;script src=&#x22;demo-files/demo.js&#x22;&#x3E;&#x3C;/script&#x3E;
     </pre>
     
-    </li>
+</li>
 <li>Rename the demo.hmtl file to index.html</li>
 <li>Then upload it to gh-branch of ks-fonticons repo</li>
 <li>Now locate the _font-icons.scss file you uploaded to this the master branch of thei repo and rename it: font-icons.css</li>
