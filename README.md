@@ -89,4 +89,6 @@ AND
 <li>Then upload it to gh-branch of ks-fonticons repo</li>
 <li>Now locate the _font-icons.scss file you uploaded to this the master branch of thei repo and rename it: font-icons.css</li>
 <li>Then upload it to gh-branch of ks-fonticons repo into the assets folder</li>
+<li>You can see the showcase page for the new fonts you just edited here: https://dondmcg.github.io/</li>
+<li>Just clikc the dropdown and select "Font-icons"</li>
 </ol>
