@@ -2,10 +2,11 @@
 Font icon repo for TheStreet
 As long as your file structure is the same as TST-NG these instructions should work otherwise editing the urls from the _font-icons.scss may be necessary
 
-<h3>Adding font-icons font to your project</h3>
+<h3>Adding font-icons font to your project:</h3>
 
 To manually add the font-icon library to a project:
-<ol><li>Download the entire font-icons dir containing the font files to the CMS-TAGS/grails-app/assets/stylesheets/fonts</li>
+<ol>
+<li>Download the entire font-icons dir containing the font files to the CMS-TAGS/grails-app/assets/stylesheets/fonts</li>
 <li>Download the _font-icons.scss to CMS-TAGS/grails-app/assets/stylesheets/styles/modules</li>
 </ol>
 
@@ -16,7 +17,7 @@ To install use npm:
 <li>The postinstall script will auto-overwrite the fonts and _font-icons.scss</li>
 </ol>
 
-To edit the fonts: 
+<h2>To add/edit/delete the fonts:</h2> 
 <ol>
 <li>There two main steps to udating the font library</li>
 <li>Update the master files which will update the files directly handling the font icons</li>
@@ -62,6 +63,7 @@ To edit the style.css simply make sure the font face declaration at the top of t
 <li>Be sure to increment the version number of the repo in the package json (you cna simply do this by editing the package.json from the repo editor</li>
 <li>In the terminal on your machine navigate to the ks-fonticons local repo</li>
 <li>From this dir run <pre>$ npm publish</pre> to update the registry to the new package version number</li>
+<li>At this point update the project by refering to the instructions above "Adding font-icons font to your project"</li>
 </ol>
 
 <h3>Updating gh-pages branch files</h3>
