@@ -8,6 +8,7 @@ To manually add the font-icon library to a project:
 <ol>
 <li>Download the entire font-icons dir containing the font files to the CMS-TAGS/grails-app/assets/stylesheets/fonts</li>
 <li>Download the _font-icons.scss to CMS-TAGS/grails-app/assets/stylesheets/styles/modules</li>
+<li>Commit and merge these changes in CMS-Tags project to your local branch (branch from develop) then open a Pull Request for merge to develop branch</li>
 </ol>
 
 To install use npm:
@@ -15,6 +16,7 @@ To install use npm:
 <li>go to the vendor folder cms-tags/grails-app/assets/vendor</li>
 <li>run <code>npm install ks-fonticons</code></li>
 <li>The postinstall script will auto-overwrite the fonts and _font-icons.scss</li>
+<li>Commit and merge these changes in CMS-Tags project to your local branch (branch from develop) then open a Pull Request for merge to develop branch</li>
 </ol>
 
 <h2>To add/edit/delete the fonts:</h2> 
