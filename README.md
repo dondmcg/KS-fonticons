@@ -2,6 +2,8 @@
 Font icon repo for TheStreet
 As long as your file structure is the same as TST-NG these instructions should work otherwise editing the urls from the _font-icons.scss may be necessary
 
+<h3>Adding font-icons font to your project</h3>
+
 To manually add the font-icon library to a project:
 <ol><li>Download the entire font-icons dir containing the font files to the CMS-TAGS/grails-app/assets/stylesheets/fonts</li>
 <li>Download the _font-icons.scss to CMS-TAGS/grails-app/assets/stylesheets/styles/modules</li>
