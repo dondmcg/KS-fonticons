@@ -27,7 +27,7 @@ To install use npm:
 </ol>
 
 
-<h3>Updating master branch files</h3>
+<h3>Updating font library master branch files</h3>
 
 <ol>
 <li>Download the selection.json file from this github repo</li>
