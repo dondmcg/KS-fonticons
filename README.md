@@ -22,8 +22,8 @@ To install use npm:
 <h2>To add/edit/delete the fonts:</h2> 
 <p>There two main steps to udating the font library</p>
 <ol>
-<li>Update the master files which will update the files directly handling the font icons</li>
-<li>Update the gh-pages branch which will update the font-icon reference page of the style-guide</li>
+<li>Update the library master files which will handle the adding or deleteing of font icons</li>
+<li>Update the gh-pages branch which will update the font-icon reference page of the font style-guide</li>
 </ol>
 
 
