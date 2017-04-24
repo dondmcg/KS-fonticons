@@ -32,7 +32,7 @@ To install use npm:
 <ol>
 <li>Download the selection.json file from this github repo</li>
 <li>Upload the selection.json file to icomoon.io app</li>
-<li>Add, edit or delete and then click "Generate Font"</li>
+<li>Add, edit or delete fonts (keep in mind the fonts are named the same as that of the svg file name used so please use dashes instead of underscores when naming svg files to remain consistant)  and then click "Generate Font"</li>
 </ol>
 
 After downloading the newly created font there are four files or sets of files to be concerned with:
