@@ -64,7 +64,7 @@ To edit the style.css simply make sure the font face declaration at the top of t
 <li>After cloning a local repo for ks-font-icons</li>
 <li>Upload the new _font-icons.sccs to the assets dir of the master branch of this repo (ks-fonticons)</li>
 <li>Upload the new font files in the new fonts folder to the dir fonts/fonticons/ of the master branch of this repo (ks-fonticons)</li>
-<li>Be sure to increment the version number of the repo in the package json (you cna simply do this by editing the package.json from the repo editor</li>
+<li>Be sure to increment the version number of the repo in the package json (you can simply do this by editing the package.json from the repo editor</li>
 <li>In the terminal on your machine navigate to the ks-fonticons local repo</li>
 <li>From this dir run <pre>$ npm publish</pre> to update the registry to the new package version number</li>
 <li>At this point update the project by refering to the instructions above "Adding font-icons font to your project"</li>
