@@ -47,8 +47,9 @@ With this in mind proceed to...
 <ol>
 <li>From the resulting files locate the style.css file and the fonts dir</li>
 <li>Edit the resulting style.css to match the _font-icons.scss file and rename it as _font-icons.scss</li>
-<p>
-To edit the style.css simply make sure the font face declaration at the top of the page matches:<br><br>
+<li><p>
+To edit the style.css simply make sure the font face declaration at the top of the page matches:
+</p>
 <pre>@font-face {
   font-family: 'font-icons';
   src:  url('../fonts/font-icons/font-icons.eot?trcws1');
@@ -59,7 +60,8 @@ To edit the style.css simply make sure the font face declaration at the top of t
   font-weight: normal;
   font-style: normal;
   }</pre>
-</p>
+</li>
+<li>After cloning a local repo for ks-font-icons</li>
 <li>Upload the new _font-icons.sccs to the assets dir of the master branch of this repo (ks-fonticons)</li>
 <li>Upload the new font files in the new fonts folder to the dir fonts/fonticons/ of the master branch of this repo (ks-fonticons)</li>
 <li>Be sure to increment the version number of the repo in the package json (you cna simply do this by editing the package.json from the repo editor</li>
