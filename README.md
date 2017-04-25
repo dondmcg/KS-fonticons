@@ -91,12 +91,12 @@ AND
 <pre>
 &#x3C;!--&#x3C;![endif]--&#x3E;
 </pre>
-    
+<p> as well as the demo-script.js and icomoon link</p>
 </li>
-<li>Rename the demo.hmtl file to index.html</li>
-<li>Then upload it to gh-branch of ks-fonticons repo</li>
-<li>Now locate the _font-icons.scss file you uploaded to this the master branch of thei repo and rename it: font-icons.css</li>
-<li>Then upload it to gh-branch of ks-fonticons repo into the assets folder</li>
+<li>Rename the demo.html file to index.html</li>
+<li>Now locate the _font-icons.scss file you uploaded to this the master branch of the repo and duplicate it and rename the dupe: font-icons.css</li>
+<li>Then upload both files as well as all the new fonts to gh-pages branch of ks-fonticons repo, note though that the font-icons.css goes into the assets folder and the fonts go into the fonts/font-icons/ folder</li>
+<li>After committing to gh-pages branch the styleguide will be updated.</li>
 <li>You can see the showcase page for the new fonts you just edited here: https://dondmcg.github.io/</li>
-<li>Just clikc the dropdown and select "Font-icons"</li>
+<li>Just click the dropdown and select "Font-icons"</li>
 </ol>
