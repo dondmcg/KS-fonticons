@@ -91,7 +91,7 @@ AND
 <pre>
 &#x3C;!--&#x3C;![endif]--&#x3E;
 </pre>
-    
+<p> as well as the demo-script.js and icomoon link</p>
 </li>
 <li>Rename the demo.hmtl file to index.html</li>
 <li>Then upload it to gh-branch of ks-fonticons repo</li>
