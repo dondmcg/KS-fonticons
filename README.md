@@ -32,7 +32,13 @@ To install use npm:
 <ol>
 <li>Download the selection.json file from this github repo</li>
 <li>Upload the selection.json file to icomoon.io app</li>
-<li>Add, edit or delete fonts (keep in mind the fonts are named the same as that of the svg file name used so please use dashes instead of underscores when naming svg files to remain consistant)  and then click "Generate Font"</li>
+<li>Add, edit or delete fonts (keep in mind the fonts are named the same as that of the svg file name used so please follow these conventions:
+<ol>
+<li>Use dashes instead of underscores when naming svg files</li>
+<li>All fonts are prefixed with "font-icons-" so please refrain from using these words in the name ie: "share-icon" becomes "font-icon-share-icon"  there fore better naming conventions would be: "share.svg" or share-arrow.svg"</li>
+</ol>
+</li>
+<li>Then click "Generate Font"</li>
 </ol>
 
 After downloading the newly created font there are four files or sets of files to be concerned with:
