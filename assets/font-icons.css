@@ -8,7 +8,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+  
 [class^="font-icon-"], [class*=" font-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'font-icons' !important;
@@ -24,7 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.font-icon-share-icon:before {
+.font-icon-share-arrow:before {
   content: "\e904";
 }
 .font-icon-close:before {

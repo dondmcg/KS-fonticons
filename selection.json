@@ -14,16 +14,16 @@
         "isMulticolor2": false,
         "grid": 14,
         "tags": [
-          "share-icon"
+          "share-arrow"
         ]
       },
       "attrs": [
         {}
       ],
       "properties": {
-        "order": 86,
+        "order": 91,
         "id": 40,
-        "name": "share-icon",
+        "name": "share-arrow",
         "prevSize": 32,
         "code": 59652
       },
