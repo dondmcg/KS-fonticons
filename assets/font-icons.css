@@ -8,7 +8,7 @@
   font-weight: normal;
   font-style: normal;
 }
-  
+
 [class^="font-icon-"], [class*=" font-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'font-icons' !important;
@@ -24,7 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-<<<<<<< Updated upstream
+.font-icon-share-icon:before {
+  content: "\e904";
+}
 .font-icon-close:before {
   content: "\e902";
 }
@@ -34,11 +36,6 @@
 .font-icon-user:before {
   content: "\e901";
 }
-=======
-.font-icon-share-icon:before {
-  content: "\e900";
-}
->>>>>>> Stashed changes
 .font-icon-mag:before {
   content: "\e903";
 }
